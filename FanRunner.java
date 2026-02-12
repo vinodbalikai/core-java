@@ -1,6 +1,13 @@
 class FanRunner{
-	public static void main(String[] fan){
+	public static void main(String [] fan){
 		boolean status=Fan.onOrOf();
-		System.out.println("The fan is running: "+status);
+		Fan.increaseSpeed();
+		System.out.println(" ");
+		Fan.increaseSpeed();
+		System.out.println(" ");
+		Fan.decreaseSpeed();
+		System.out.println(" ");
+		Fan.decreaseSpeed();
+		System.out.println(" ");
 	}
 }

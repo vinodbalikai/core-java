@@ -1,6 +1,13 @@
 class RefrigeratorRunner{
-	public static void main(String[] ref){
+	public static void main(String [] rf){
 		boolean status=Refrigerator.onOrOf();
-		System.out.println("The refrigerator is ON: "+status);
+		Refrigerator.increaseTemperature();
+		System.out.println(" ");
+		Refrigerator.increaseTemperature();
+		System.out.println(" ");
+		Refrigerator.decreaseTemperature();
+		System.out.println(" ");
+		Refrigerator.decreaseTemperature();
+		System.out.println(" ");
 	}
 }

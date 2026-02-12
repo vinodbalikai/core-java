@@ -1,6 +1,13 @@
 class MixerRunner{
-	public static void main(String[] mixer){
+	public static void main(String [] mx){
 		boolean status=Mixer.onOrOf();
-		System.out.println("The mixer is ON: "+status);
+		Mixer.increaseSpeed();
+		System.out.println(" ");
+		Mixer.increaseSpeed();
+		System.out.println(" ");
+		Mixer.decreaseSpeed();
+		System.out.println(" ");
+		Mixer.decreaseSpeed();
+		System.out.println(" ");
 	}
 }
