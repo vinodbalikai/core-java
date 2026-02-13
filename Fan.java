@@ -1,45 +1,26 @@
 class Fan{
-	static boolean isRotating;
-	static int currentSpeed;
-	static int maxSpeed=5;
-	static int minSpeed;
-	static boolean onOrOf(){
-		if(isRotating==false){
-			isRotating=true;
-			System.out.println("The Fan is On");
-		}else if(isRotating=true){
-			isRotating=false;
-			System.out.println("The Fan is Off");
-		}return isRotating;
+	static Double getPrice(){
+		System.out.println("Fetching the fan price");
+		return 3000.00;
 	}
-	static void increaseSpeed(){
-		System.out.println("The increaseSpeed method is invoked");
-		System.out.println("The number of parameters passed are: 0");
-		if(isRotating==true){
-			if(currentSpeed<maxSpeed){
-				currentSpeed=currentSpeed+1;
-				System.out.println("The current Speed is: "+currentSpeed);
-			}else{
-				System.out.println("The Fan reached the maximum Speed");
-			}
-		}else{
-			System.out.println("First turn On the Fan");
-		}
+	static String getBrand(){
+		System.out.println("Fetching the brand of the fan");
+		return "Usha";
 	}
-	static void decreaseSpeed(){
-		System.out.println("The decreaseSpeed method is invoked");
-		System.out.println("The number of parameters passed are: 0");
-		if(isRotating==true){
-			if(currentSpeed>minSpeed){
-				currentSpeed=currentSpeed-1;
-				System.out.println("The current Speed of the Fan is: "+currentSpeed);
-			}else{
-				System.out.println("The Fan reached the minimum speed");
-			}
-		}else{
-			System.out.println("First Turn On the Fan");
-		}
+	static int getSpeedLevels(){
+		System.out.println("Fetching speed levels");
+		return 5;
 	}
-	
-	
+	static String getType(){
+		System.out.println("Getting fan type");
+		return "Ceiling Fan";
+	}
+	static int getPowerConsumption(){
+		System.out.println("Fetching power consumption");
+		return 75;
+	}
+	static boolean hasRemote(){
+		System.out.println("Checking remote feature");
+		return false;
+	}
 }
