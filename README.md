@@ -1,1 +1,1 @@
-# xworkz-java
+# core-java
