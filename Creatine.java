@@ -1,0 +1,27 @@
+class Creatine{
+	String brand;
+	int price;
+	int weightInGrams;
+	String flavor;
+	String type;
+	boolean micronized;
+	boolean unflavored;
+	String form;
+	String manufacturingCountry;
+	int servings;
+	String expiryDate;
+	boolean sugarFree;
+	boolean vegan;
+	boolean glutenFree;
+	String packagingType;
+	int scoopSize;
+	String color;
+	String modelNumber;
+	String releaseYear;
+	boolean labTested;
+	String storageInstructions;
+	boolean sealedPack;
+	String energyBoostLevel;
+	int stockAvailable;
+	String distributor;
+}

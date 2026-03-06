@@ -1,0 +1,27 @@
+class WaterBottle{
+	String brand;
+	int price;
+	int capacityML;
+	String color;
+	String material;
+	boolean insulated;
+	boolean leakProof;
+	String lidType;
+	String manufacturingCountry;
+	int weightInGrams;
+	boolean dishwasherSafe;
+	boolean BPAFree;
+	String modelNumber;
+	String releaseYear;
+	boolean temperatureRetention;
+	String shape;
+	String packagingType;
+	boolean ecoFriendly;
+	String capMaterial;
+	boolean handlePresent;
+	String design;
+	String warranty;
+	boolean foldable;
+	int stockAvailable;
+	String distributor;
+}

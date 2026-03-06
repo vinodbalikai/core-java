@@ -1,0 +1,27 @@
+class Pipe{
+	String brand;
+	int price;
+	String material;
+	String color;
+	int lengthInMeters;
+	int diameterMM;
+	boolean flexible;
+	boolean rustProof;
+	String manufacturingCountry;
+	String modelNumber;
+	String releaseYear;
+	String type;
+	boolean waterproof;
+	String packagingType;
+	int weightInGrams;
+	String pressureRating;
+	String usage;
+	boolean heatResistant;
+	String finishType;
+	String connectorType;
+	boolean recyclable;
+	String shape;
+	int warrantyYears;
+	int stockAvailable;
+	String distributor;
+}

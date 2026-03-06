@@ -1,0 +1,27 @@
+class Charger{
+	String brand;
+	int price;
+	int wattage;
+	String color;
+	String type;
+	boolean fastCharging;
+	boolean detachableCable;
+	String cableType;
+	String manufacturingCountry;
+	String modelNumber;
+	String releaseYear;
+	boolean overVoltageProtection;
+	boolean overCurrentProtection;
+	boolean shortCircuitProtection;
+	String connectorType;
+	int cableLength;
+	String packagingType;
+	String energyRating;
+	int weightInGrams;
+	String inputVoltage;
+	String outputVoltage;
+	boolean ledIndicator;
+	String compatibility;
+	int warrantyYears;
+	int stockAvailable;
+}

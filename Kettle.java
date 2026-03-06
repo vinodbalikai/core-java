@@ -1,0 +1,27 @@
+class Kettle{
+	String brand;
+	int price;
+	int capacityML;
+	String color;
+	String material;
+	boolean autoShutOff;
+	boolean cordless;
+	int wattage;
+	String manufacturingCountry;
+	String modelNumber;
+	String releaseYear;
+	boolean temperatureControl;
+	boolean boilDryProtection;
+	String handleType;
+	String lidType;
+	String packagingType;
+	int weightInGrams;
+	String energyRating;
+	boolean ledIndicator;
+	String baseType;
+	String heatingElement;
+	boolean fastBoil;
+	String design;
+	int warrantyYears;
+	int stockAvailable;
+}

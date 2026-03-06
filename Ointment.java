@@ -1,0 +1,27 @@
+class Ointment{
+	String brand;
+	int price;
+	int weightInGrams;
+	String type;
+	String color;
+	String usage;
+	String manufacturingCountry;
+	String expiryDate;
+	boolean antiseptic;
+	boolean painRelief;
+	boolean antiFungal;
+	boolean antiBacterial;
+	String packagingType;
+	String modelNumber;
+	String releaseYear;
+	String storageInstructions;
+	boolean sealedPack;
+	String texture;
+	String smell;
+	String skinType;
+	boolean prescriptionRequired;
+	String manufacturer;
+	int stockAvailable;
+	String distributor;
+	int warrantyYears;
+}

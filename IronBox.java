@@ -1,0 +1,27 @@
+class IronBox{
+	String brand;
+	int price;
+	int wattage;
+	String color;
+	String type;
+	boolean steamFunction;
+	boolean nonStickPlate;
+	int warrantyYears;
+	String manufacturingCountry;
+	boolean autoShutOff;
+	String modelNumber;
+	String releaseYear;
+	boolean temperatureControl;
+	String plateMaterial;
+	boolean verticalSteam;
+	int waterTankCapacity;
+	String cordType;
+	boolean swivelCord;
+	boolean antiDrip;
+	boolean selfCleaning;
+	String packagingType;
+	String energyRating;
+	int weightInGrams;
+	String handleType;
+	int stockAvailable;
+}

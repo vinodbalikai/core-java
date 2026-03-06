@@ -1,0 +1,27 @@
+class Belt{
+	String brand;
+	int price;
+	String color;
+	String material;
+	String size;
+	String buckleType;
+	boolean reversible;
+	String style;
+	String manufacturingCountry;
+	int warrantyMonths;
+	String modelNumber;
+	String releaseYear;
+	boolean leather;
+	boolean adjustable;
+	String texture;
+	String stitchingType;
+	String brandLogoType;
+	String buckleMaterial;
+	boolean rustResistant;
+	String packagingType;
+	int lengthInCm;
+	int widthInCm;
+	String gender;
+	String occasionType;
+	int stockAvailable;
+}

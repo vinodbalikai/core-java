@@ -1,0 +1,27 @@
+class Helmet{
+	String brand;
+	int price;
+	double weightInKg;
+	String colour;
+	String size;
+	String type;
+	String material;
+	boolean visorPresent;
+	String visorType;
+	boolean scratchResistant;
+	boolean antiFog;
+	boolean ventilationSystem;
+	int warrantyYears;
+	String certification;
+	boolean bluetoothEnabled;
+	boolean removablePadding;
+	boolean washablePadding;
+	String strapType;
+	boolean quickReleaseBuckle;
+	String interiorFabric;
+	boolean uvProtection;
+	String manufacturingCountry;
+	String modelNumber;
+	String releaseYear;
+	int stockAvailable;
+}
