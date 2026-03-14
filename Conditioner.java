@@ -1,4 +1,4 @@
-class Shampoo {
+class Conditioner {
 
     String brand;
     String type;
@@ -21,11 +21,11 @@ class Shampoo {
     String supplier;
     int quantity;
 
-    Shampoo(String brand,String type,String color,String fragrance,double price,
-            int volume,String hairType,boolean herbal,boolean sulfateFree,
-            String manufacturer,String country,String packagingType,double weight,
-            String expiryDate,String ingredients,boolean antiDandruff,
-            String usage,String texture,String supplier,int quantity){
+    Conditioner(String brand,String type,String color,String fragrance,double price,
+                int volume,String hairType,boolean herbal,boolean sulfateFree,
+                String manufacturer,String country,String packagingType,double weight,
+                String expiryDate,String ingredients,boolean antiDandruff,
+                String usage,String texture,String supplier,int quantity){
 
         this.brand = brand;
         this.type = type;
