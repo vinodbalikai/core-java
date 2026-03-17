@@ -1,12 +1,24 @@
 class Train{
-	boolean isExpress;
-	int noOfCoaches;
-	Bogie bogie;
-	
-	public void getTrainDetails(){
-		System.out.println("Is this an express train: "+isExpress);
-		System.out.println("Number of coaches in the train: "+noOfCoaches);
-		this.bogie.getBogieDetails();
+  int TrainId;
+  String TrainName;
+  String TrainSource;
+  String TrainDestination;
+  Boggy boggy;
+  
+  Train(int TrainId, String TrainName, String TrainSource, String TrainDestination, Boggy boggy){
+	this.TrainId=TrainId;
+	this.TrainName=TrainName;
+	this.TrainSource=TrainSource;
+	this.TrainDestination=TrainDestination;
+	this.boggy=boggy;
 	}
-}
-
+	
+  public void getDetail(){
+	 System.out.println();
+     System.out.println("The Train id is:" +this.TrainId);
+	 System.out.println("The Train Name is:" +this.TrainName);
+	 System.out.println("The Train Source is:" +this.TrainSource);
+	 System.out.println("The Train Destination is:" +this.TrainDestination);
+	 this.boggy.getBoggyDetails();
+	 }
+ }
