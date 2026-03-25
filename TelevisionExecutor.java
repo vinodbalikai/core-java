@@ -1,8 +1,6 @@
 class TelevisionExecutor {
-    public static void main(String[] args) {
-
+    public static void main(String[] args){
         Television tv = new Television();
-
         tv.addChannel("Star Plus");
         tv.addChannel("Zee TV");
         tv.addChannel("Colors");

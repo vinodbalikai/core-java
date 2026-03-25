@@ -11,10 +11,8 @@ class Television {
         } else {
             System.out.println("the channel name entered is invalid");
         }
-
         return isChannelAdded;
     }
-
     public void getChannelNames() {
         System.out.println("The channel names are:");
         for (String channel : channelNames) {
