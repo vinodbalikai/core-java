@@ -1,24 +1,24 @@
 class Netflix {
-
-    private String webSeries[] = new String[18];
+    String webSeries[] = new String[18];
     int index;
 
-    public boolean addWebSeries(String webSeriesName) {
-        boolean isWebSeriesAdded = false;
+    public boolean addWebSeries(String seriesName) {
+        boolean isSeriesAdded = false;
 
-        if (webSeriesName != null && !webSeriesName.isEmpty()) {
-            webSeries[index] = webSeriesName;
-            index++;
-            isWebSeriesAdded = true;
+        if (seriesName != null && !seriesName.isEmpty()) {
+            webSeries[index++] = seriesName;
+            isSeriesAdded = true;
         } else {
-            System.out.println("Enter valid Web Series Name");
+            System.out.println("the series name entered is invalid");
         }
 
-        return isWebSeriesAdded;
+        return isSeriesAdded;
     }
 
     public void getWebSeries() {
-        for (String webSeriesName : webSeries)
-            System.out.println(webSeriesName);
+        System.out.println("The web series are:");
+        for (String series : webSeries) {
+            System.out.println(series);
+        }
     }
 }

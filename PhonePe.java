@@ -1,24 +1,24 @@
-class Phonepe {
-
-    private String insuranceNames[] = new String[27];
+class PhonePe {
+    String insuranceNames[] = new String[27];
     int index;
 
-    public boolean addInsuranceName(String insuranceName) {
+    public boolean addInsurance(String insuranceName) {
         boolean isInsuranceAdded = false;
 
         if (insuranceName != null && !insuranceName.isEmpty()) {
-            insuranceNames[index] = insuranceName;
-            index++;
+            insuranceNames[index++] = insuranceName;
             isInsuranceAdded = true;
         } else {
-            System.out.println("Enter valid Insurance Name");
+            System.out.println("the insurance name entered is invalid");
         }
 
         return isInsuranceAdded;
     }
 
     public void getInsuranceNames() {
-        for (String insuranceName : insuranceNames)
-            System.out.println(insuranceName);
+        System.out.println("The insurance names are:");
+        for (String insurance : insuranceNames) {
+            System.out.println(insurance);
+        }
     }
 }
