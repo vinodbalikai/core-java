@@ -1,22 +1,24 @@
-class Wonderla{
- String[] waterGames= new String[3];
- int index;
- 
- public boolean addWaterGames(String games){
-   boolean isGamesAdded=false;
-   if(games!=null && !games.isEmpty()){
-       waterGames[index]=games;
-	   index++;
-	   isGamesAdded=true;
-	  }
-	else{
-	     System.out.println("Invalid games lists");
-		 isGamesAdded=false;
-		}
-	return isGamesAdded;
-	}
-	
-	public void getWaterGames(){
-	   System.out.println("First game is:" +waterGames[1]);
-	  }
-	 }
+class Wonderla {
+
+    private String waterGames[] = new String[20];
+    int index;
+
+    public boolean addWaterGame(String gameName) {
+        boolean isGameAdded = false;
+
+        if (gameName != null && !gameName.isEmpty()) {
+            waterGames[index] = gameName;
+            index++;
+            isGameAdded = true;
+        } else {
+            System.out.println("Enter valid Game Name");
+        }
+
+        return isGameAdded;
+    }
+
+    public void getWaterGames() {
+        for (String gameName : waterGames)
+            System.out.println(gameName);
+    }
+}

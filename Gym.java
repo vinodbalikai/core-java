@@ -1,25 +1,24 @@
-class Gym{
-  String[] equipment = new String[4];
-  int index;
-  
-  public void addEquipment(String name){
-   if(name!=null && !name.isEmpty()){
-      equipment[index]=name;
-	  index++;
-	  }
-	 else{
-	    System.out.println("Equipment list is full");
-		}
-	}
- 
- public void getEquipmentDetails(){
-  System.out.println("LISTS OF EQUIPMENT");
-  for(String equipments: equipment){
-    System.out.println(equipments);
- }
-}
- 
-  Gym(){
-     System.out.println("Gym class Started");
-	}
+class Gym {
+
+    private String equipments[] = new String[16];
+    int index;
+
+    public boolean addEquipment(String equipmentName) {
+        boolean isEquipmentAdded = false;
+
+        if (equipmentName != null && !equipmentName.isEmpty()) {
+            equipments[index] = equipmentName;
+            index++;
+            isEquipmentAdded = true;
+        } else {
+            System.out.println("Enter valid Equipment Name");
+        }
+
+        return isEquipmentAdded;
+    }
+
+    public void getEquipments() {
+        for (String equipmentName : equipments)
+            System.out.println(equipmentName);
+    }
 }
