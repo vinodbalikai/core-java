@@ -6,7 +6,7 @@ class UserManualExecutor{
 		userManual.setManualTitle("Quick Start Guide");
 		System.out.println("The Manual Title is: "+userManual.getManualTitle());
 		
-		userManual.setManualId(1);
+		userManual.setManualId(17);
 		System.out.println("The Manual Id is: "+userManual.getManualId());
 		
 		userManual.setProductName("Smart TV");
@@ -15,10 +15,10 @@ class UserManualExecutor{
 		userManual.setLanguage("English");
 		System.out.println("The Language is: "+userManual.getLanguage());
 		
-		userManual.setHelplineNumber(1800123456L);
+		userManual.setHelplineNumber(8651214562L);
 		System.out.println("The Helpline Number is: "+userManual.getHelplineNumber());
 		
-		userManual.setVersion("1.0");
+		userManual.setVersion("2.0");
 		System.out.println("The Version is: "+userManual.getVersion());
 		
 		userManual.setPublisher("Sony");
@@ -30,7 +30,7 @@ class UserManualExecutor{
 		userManual1.setManualTitle("Installation Guide");
 		System.out.println("The Manual Title is: "+userManual1.getManualTitle());
 		
-		userManual1.setManualId(2);
+		userManual1.setManualId(6);
 		System.out.println("The Manual Id is: "+userManual1.getManualId());
 		
 		userManual1.setProductName("Washing Machine");
@@ -39,10 +39,10 @@ class UserManualExecutor{
 		userManual1.setLanguage("English");
 		System.out.println("The Language is: "+userManual1.getLanguage());
 		
-		userManual1.setHelplineNumber(1800654321L);
+		userManual1.setHelplineNumber(7651462241L);
 		System.out.println("The Helpline Number is: "+userManual1.getHelplineNumber());
 		
-		userManual1.setVersion("2.0");
+		userManual1.setVersion("3.0");
 		System.out.println("The Version is: "+userManual1.getVersion());
 		
 		userManual1.setPublisher("LG");
@@ -54,7 +54,7 @@ class UserManualExecutor{
 		userManual2.setManualTitle("User Guide");
 		System.out.println("The Manual Title is: "+userManual2.getManualTitle());
 		
-		userManual2.setManualId(3);
+		userManual2.setManualId(4);
 		System.out.println("The Manual Id is: "+userManual2.getManualId());
 		
 		userManual2.setProductName("Refrigerator");
@@ -63,7 +63,7 @@ class UserManualExecutor{
 		userManual2.setLanguage("Hindi");
 		System.out.println("The Language is: "+userManual2.getLanguage());
 		
-		userManual2.setHelplineNumber(1800789456L);
+		userManual2.setHelplineNumber(9445214561L);
 		System.out.println("The Helpline Number is: "+userManual2.getHelplineNumber());
 		
 		userManual2.setVersion("1.5");
@@ -78,7 +78,7 @@ class UserManualExecutor{
 		userManual3.setManualTitle("Safety Instructions");
 		System.out.println("The Manual Title is: "+userManual3.getManualTitle());
 		
-		userManual3.setManualId(4);
+		userManual3.setManualId(18);
 		System.out.println("The Manual Id is: "+userManual3.getManualId());
 		
 		userManual3.setProductName("Microwave");
@@ -87,10 +87,10 @@ class UserManualExecutor{
 		userManual3.setLanguage("English");
 		System.out.println("The Language is: "+userManual3.getLanguage());
 		
-		userManual3.setHelplineNumber(1800456123L);
+		userManual3.setHelplineNumber(865121456L);
 		System.out.println("The Helpline Number is: "+userManual3.getHelplineNumber());
 		
-		userManual3.setVersion("3.0");
+		userManual3.setVersion("5.0");
 		System.out.println("The Version is: "+userManual3.getVersion());
 		
 		userManual3.setPublisher("IFB");
@@ -102,7 +102,7 @@ class UserManualExecutor{
 		userManual4.setManualTitle("Troubleshooting Guide");
 		System.out.println("The Manual Title is: "+userManual4.getManualTitle());
 		
-		userManual4.setManualId(5);
+		userManual4.setManualId(30);
 		System.out.println("The Manual Id is: "+userManual4.getManualId());
 		
 		userManual4.setProductName("Air Conditioner");
@@ -111,7 +111,7 @@ class UserManualExecutor{
 		userManual4.setLanguage("English");
 		System.out.println("The Language is: "+userManual4.getLanguage());
 		
-		userManual4.setHelplineNumber(1800987654L);
+		userManual4.setHelplineNumber(9523698721L);
 		System.out.println("The Helpline Number is: "+userManual4.getHelplineNumber());
 		
 		userManual4.setVersion("2.2");

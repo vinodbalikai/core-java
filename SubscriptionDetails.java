@@ -3,7 +3,7 @@ class SubscriptionDetails{
 	private int subscriptionId;
 	private String planType;
 	private String duration;
-	private long price;
+	private double price;
 	private String userEmail;
 	private String status;
 	

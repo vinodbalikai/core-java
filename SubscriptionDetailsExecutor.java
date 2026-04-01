@@ -6,7 +6,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails.setSubscriptionName("Netflix");
 		System.out.println("The Subscription Name is: "+subscriptionDetails.getSubscriptionName());
 		
-		subscriptionDetails.setSubscriptionId(1);
+		subscriptionDetails.setSubscriptionId(17);
 		System.out.println("The Subscription Id is: "+subscriptionDetails.getSubscriptionId());
 		
 		subscriptionDetails.setPlanType("Premium");
@@ -15,7 +15,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails.setDuration("1 Month");
 		System.out.println("The Duration is: "+subscriptionDetails.getDuration());
 		
-		subscriptionDetails.setPrice(799L);
+		subscriptionDetails.setPrice(799.00);
 		System.out.println("The Price is: "+subscriptionDetails.getPrice());
 		
 		subscriptionDetails.setUserEmail("vinod@gmail.com");
@@ -30,7 +30,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails1.setSubscriptionName("Amazon Prime");
 		System.out.println("The Subscription Name is: "+subscriptionDetails1.getSubscriptionName());
 		
-		subscriptionDetails1.setSubscriptionId(2);
+		subscriptionDetails1.setSubscriptionId(15);
 		System.out.println("The Subscription Id is: "+subscriptionDetails1.getSubscriptionId());
 		
 		subscriptionDetails1.setPlanType("Yearly");
@@ -39,7 +39,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails1.setDuration("12 Months");
 		System.out.println("The Duration is: "+subscriptionDetails1.getDuration());
 		
-		subscriptionDetails1.setPrice(1499L);
+		subscriptionDetails1.setPrice(1499.00);
 		System.out.println("The Price is: "+subscriptionDetails1.getPrice());
 		
 		subscriptionDetails1.setUserEmail("rahul@gmail.com");
@@ -54,7 +54,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails2.setSubscriptionName("Spotify");
 		System.out.println("The Subscription Name is: "+subscriptionDetails2.getSubscriptionName());
 		
-		subscriptionDetails2.setSubscriptionId(3);
+		subscriptionDetails2.setSubscriptionId(5);
 		System.out.println("The Subscription Id is: "+subscriptionDetails2.getSubscriptionId());
 		
 		subscriptionDetails2.setPlanType("Individual");
@@ -63,7 +63,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails2.setDuration("1 Month");
 		System.out.println("The Duration is: "+subscriptionDetails2.getDuration());
 		
-		subscriptionDetails2.setPrice(119L);
+		subscriptionDetails2.setPrice(1999.00);
 		System.out.println("The Price is: "+subscriptionDetails2.getPrice());
 		
 		subscriptionDetails2.setUserEmail("amit@gmail.com");
@@ -78,7 +78,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails3.setSubscriptionName("Hotstar");
 		System.out.println("The Subscription Name is: "+subscriptionDetails3.getSubscriptionName());
 		
-		subscriptionDetails3.setSubscriptionId(4);
+		subscriptionDetails3.setSubscriptionId(6);
 		System.out.println("The Subscription Id is: "+subscriptionDetails3.getSubscriptionId());
 		
 		subscriptionDetails3.setPlanType("Super");
@@ -87,7 +87,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails3.setDuration("3 Months");
 		System.out.println("The Duration is: "+subscriptionDetails3.getDuration());
 		
-		subscriptionDetails3.setPrice(299L);
+		subscriptionDetails3.setPrice(299.00);
 		System.out.println("The Price is: "+subscriptionDetails3.getPrice());
 		
 		subscriptionDetails3.setUserEmail("kiran@gmail.com");
@@ -102,7 +102,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails4.setSubscriptionName("YouTube Premium");
 		System.out.println("The Subscription Name is: "+subscriptionDetails4.getSubscriptionName());
 		
-		subscriptionDetails4.setSubscriptionId(5);
+		subscriptionDetails4.setSubscriptionId(9);
 		System.out.println("The Subscription Id is: "+subscriptionDetails4.getSubscriptionId());
 		
 		subscriptionDetails4.setPlanType("Family");
@@ -111,7 +111,7 @@ class SubscriptionDetailsExecutor{
 		subscriptionDetails4.setDuration("1 Month");
 		System.out.println("The Duration is: "+subscriptionDetails4.getDuration());
 		
-		subscriptionDetails4.setPrice(189L);
+		subscriptionDetails4.setPrice(189.00);
 		System.out.println("The Price is: "+subscriptionDetails4.getPrice());
 		
 		subscriptionDetails4.setUserEmail("sneha@gmail.com");
